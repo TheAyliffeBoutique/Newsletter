@@ -13,7 +13,7 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
+  background: pink;
 }
 
 /* Header/Blog Title */
@@ -21,7 +21,7 @@ body {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: lightgrey;
+  background:grey;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -41,7 +41,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-   background-color: lightgrey;
+   background-color: grey;
    padding: 20px;
    margin-top: 20px;
 }
@@ -57,10 +57,21 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: lightgrey;
+  background: grey;
   margin-top: 20px;
 }
-
+/* bodysuit */
+.bodysuit{
+float: left;
+}
+/* tops */
+.tops{
+float: right;
+}
+/* leggings */
+.leggings{
+float: right;
+}
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
@@ -88,38 +99,25 @@ body {
         
       </p>
     </div>
-    <br>
-    <div id="piechart"></div>
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-// Load google charts
-google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawChart);
-
-// Draw the chart and set the chart values
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-  ['item', 'How many items'],
-  ['Jumpers', 1],
-  ['Gym Sets', 5],
-  ['Jeans', 3],
-  ['Leggings', 2],
-  ['Co-Ords', 1],
-  ['Shoes', 15],
-  ['Dresses', 4],
-  ['Tops', 9],
-]);
-
-  // Optional; add a title and set the width and height of the chart
-  var options = {'title':'Items brought', 'width':350, 'height':300};
-
-  // Display the chart inside the <div> element with id="piechart"
-  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-  chart.draw(data, options);
-}
-</script>
+    <br><br>
+    <center><h3>New stock coming!</h3></center>
+    <div class="bodysuit">
+      <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bodysuites</h4>
+      <a href="https://www.theayliffeboutique.com/shop/women/tops"><img src="bodysuit.jpeg" width="250px" height="350px"></a>
+    </div>
+    <div class="tops">
+      <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jumpers</h4>
+      <a href="https://www.theayliffeboutique.com/shop/women/jumpers"><img src="jumper.jpeg" width="250px" height="350px"></a>
+    </div>
+    <div class="leggings">
+      <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leggings</h4>
+      <a href="https://www.theayliffeboutique.com/shop/women/leggings"><img src="leather leggings.jpeg" width="250px" height="350px"></a>
+    </div>
+    <div class="bodysuit">
+      <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bodysuites</h4>
+      <a href="https://www.theayliffeboutique.com/shop/women/tops"><img src="bodysuit.jpeg" width="250px" height="350px"></a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="card">
       <h2>Announcements</h2>
       <p>The Ayliffe Boutique is excited to announce that they will be bringing out a new range of clothing, this will include clothing for <br><br>

@@ -10,7 +10,7 @@ body{
    background-color: pink;
 }
 nav{
-  background: lightgrey;
+  background: pink;
   height: 100px;
   width: 100%;
 }
@@ -75,7 +75,7 @@ nav ul li a{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: lightgrey;
+    background: pink;
     top: 80px;
     left: -100%;
     text-align: center;

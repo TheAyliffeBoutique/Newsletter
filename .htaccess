@@ -1,6 +1,6 @@
 # The following will allow you to use URLs such as the following:
 #
-#   newsletter.theayliffeboutique.com/home
+#   newsletter.theayliffeboutique.com/next/next
 #   newsletter.theayliffeboutique.com/theayliffeboutiquenews
 #   newsletter.theayliffeboutique.com/about
 #   newsletter.theayliffeboutique.com/contact
@@ -12,7 +12,7 @@
 #
 # Which will actually serve files such as the following:
 #
-#   newsletter.theayliffeboutique.com/home.html
+#   newsletter.theayliffeboutique.com/next/next.html
 #   newsletter.theayliffeboutique.com/theayliffeboutiquenews.html
 #   newsletter.theayliffeboutique.com/about.html
 #   newsletter.theayliffeboutique.com/contact.html

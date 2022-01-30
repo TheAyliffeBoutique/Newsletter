@@ -1,11 +1,15 @@
 let suggestions = [
     "about",
-    "contact",
-    "Article",
+    "newsletterabout",
     "Ayliffe",
     "Boutique",
     "News",
     "Cookie",
     "Policy",
-    
+    "cookiepolicyuk",
+    "the",
+    "theayliffeboutiquenews",
+    "uk",
+    "newsletter",
+    "home",
 ];

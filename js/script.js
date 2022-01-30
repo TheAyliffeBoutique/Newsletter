@@ -38,7 +38,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://theayliffeboutique.github.io/${selectData}`;
+        webLink = `https://newsletter.theayliffeboutique.com/${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }

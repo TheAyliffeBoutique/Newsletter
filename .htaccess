@@ -1,12 +1,22 @@
 # The following will allow you to use URLs such as the following:
 #
-#   example.com/link
-#   example.com/link/
+#   newsletter.theayliffeboutique.com/home
+#   newsletter.theayliffeboutique.com/theayliffeboutiquenews
+#   newsletter.theayliffeboutique.com/about
+#   newsletter.theayliffeboutique.com/contact
+#   newsletter.theayliffeboutique.com/newsletterabout
+#   newsletter.theayliffeboutique.com/cookiepolicyu
+#   newsletter.theayliffeboutique.com/search
 #
 # Which will actually serve files such as the following:
 #
-#   example.com/link.html
-#   example.com/link.php
+#   newsletter.theayliffeboutique.com/home.html
+#   newsletter.theayliffeboutique.com/theayliffeboutiquenews.html
+#   newsletter.theayliffeboutique.com/about.html
+#   newsletter.theayliffeboutique.com/contact.html
+#   newsletter.theayliffeboutique.com/newsletterabout.html
+#   newsletter.theayliffeboutique.com/cookiepolicyuk.html
+#   newsletter.theayliffeboutique.com/search.html
 #
 # But *only if they exist*, otherwise it will report the usual 404 error.
 

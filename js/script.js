@@ -11,7 +11,7 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{
-            webLink = `https://theayliffeboutique.github.io/${userData}`;
+            webLink = `https://newsletter.theayliffeboutique.com/${userData}`;
             linkTag.setAttribute("href", webLink);
             linkTag.click();
         }

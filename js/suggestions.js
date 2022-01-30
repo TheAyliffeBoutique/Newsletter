@@ -1,7 +1,11 @@
 let suggestions = [
-    "index",
-    "home",
     "about",
-    "shop",
     "contact",
+    "Article",
+    "Ayliffe",
+    "Boutique",
+    "News",
+    "Cookie",
+    "Policy",
+    
 ];

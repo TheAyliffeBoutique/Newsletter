@@ -7,6 +7,7 @@
 #   newsletter.theayliffeboutique.com/newsletterabout
 #   newsletter.theayliffeboutique.com/cookiepolicyu
 #   newsletter.theayliffeboutique.com/search
+#   newsletter.theayliffeboutique.com/index
 #
 # Which will actually serve files such as the following:
 #
@@ -17,6 +18,7 @@
 #   newsletter.theayliffeboutique.com/newsletterabout.html
 #   newsletter.theayliffeboutique.com/cookiepolicyuk.html
 #   newsletter.theayliffeboutique.com/search.html
+#   newsletter.theayliffeboutique.com/index.html
 #
 # But *only if they exist*, otherwise it will report the usual 404 error.
 

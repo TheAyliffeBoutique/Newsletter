@@ -12,4 +12,7 @@ let suggestions = [
     "uk",
     "newsletter",
     "home",
+    "test",
+    "article",
+    "testarticle",
 ];
